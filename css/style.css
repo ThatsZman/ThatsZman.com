@@ -117,7 +117,7 @@ div#taglarge {
     color: #2AFF00;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 680px) {
     .header .links {
         display: block;
         text-align: center;
@@ -275,6 +275,73 @@ div#taglarge {
 .hovergreen:hover {
     -webkit-box-shadow: 0px 0px 15px 5px rgba(42,255,0,0.37); 
     box-shadow: 0px 0px 15px 5px rgba(42,255,0,0.37);
+}
+
+/* Footer */
+.footer {
+    font-family: 'Roboto Mono', monospace;
+    display:flex;
+    padding: 1px 25px 1px 25px;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.87);
+}
+
+.footer .left {
+    text-align: left;
+    align-self: center;
+    width:100%;
+
+    font-size: 25px;
+    color: white;
+}
+
+.footer .right {
+    text-align: right;
+    align-self: center;
+    width:100%;
+
+    color: white;
+}
+
+.footer .foot2 {
+    margin-top: 5px;
+}
+
+.footer a {
+    color: white;
+    -moz-transition: all .25s;
+    -o-transition: all .25s;
+    -webkit-transition: all .25s;
+    transition: all .25s;
+}
+
+.footer a:hover {
+    color: #7dff60;
+    cursor: pointer;
+
+    padding: 2px;
+}
+
+.footer #active {
+    border-bottom: 2px solid #2AFF00;
+    color: #2AFF00;
+}
+
+@media screen and (max-width: 680px) {
+    .footer .right {
+        display: block;
+        text-align: center;
+        padding-bottom: 15px;
+        font-size: 15px;
+    }
+    .footer .left {
+        display: block;
+        text-align: center;
+        font-size: 17.5px;
+    }
+    .footer {
+        display: block;
+    }
 }
 
 /* A tag */
