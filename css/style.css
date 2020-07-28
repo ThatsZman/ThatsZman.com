@@ -280,7 +280,9 @@ div#taglarge {
 /* Footer */
 .footer {
     font-family: 'Roboto Mono', monospace;
+
     display:flex;
+    
     padding: 1px 25px 1px 25px;
     overflow: hidden;
     background-color: rgba(0, 0, 0, 0.87);
@@ -305,6 +307,13 @@ div#taglarge {
 
 .footer .foot2 {
     margin-top: 5px;
+}
+
+.footer .middle {
+    text-align: center;
+    align-self: center;
+    width:100%;
+    font-size: 25px;
 }
 
 .footer a {
@@ -341,6 +350,10 @@ div#taglarge {
     }
     .footer {
         display: block;
+    }
+    .footer .middle {
+        font-size: 17.5px;
+        padding-bottom: 15px;
     }
 }
 
