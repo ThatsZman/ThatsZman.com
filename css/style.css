@@ -311,9 +311,6 @@ a:hover#greenfade {
     cursor: pointer;
 
     border-bottom: 2px solid #2AFF00;
-    border-top: 2px solid #2AFF00;
-    border-left: 2px solid #2AFF00;
-    border-right: 2px solid #2AFF00;
 
     border-radius: 2.5px;
 
@@ -326,9 +323,6 @@ a:hover#greenfade {
         cursor: pointer;
     
         border-bottom: 2px solid #2AFF00;
-        border-top: 0px solid #2AFF00;
-        border-left: 0px solid #2AFF00;
-        border-right: 0px solid #2AFF00;
 
         border-radius: 0px;
     
