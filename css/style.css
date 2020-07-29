@@ -464,6 +464,21 @@ div#taglarge {
 .projectsbox .text {
     padding: 5px;
     text-align: center;
+    height: 45%;
+}
+
+.projectsbox .project-link {
+    height: 15%;
+    text-align: center;
+}
+
+.project-link hr {
+    border-top: 1px #2c2c2c;
+    border-style: solid;
+}
+
+.projectsbox .a-icon {
+    font-size: 20px;
 }
 
 /* A tag */
