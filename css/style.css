@@ -475,6 +475,7 @@ div#taglarge {
 .project-link hr {
     border-top: 1px #2c2c2c;
     border-style: solid;
+    width: 85%;
 }
 
 .projectsbox .a-icon {
