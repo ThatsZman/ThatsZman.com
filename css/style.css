@@ -245,6 +245,56 @@ div#taglarge {
     text-align: center;
 }
 
+/* NoImg-Text top/bottom portfolio box */
+.portfoliobox-noimg-text2 {
+    height: 250px;
+    width: 350px;
+    border: 2px solid #cecece;
+
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+
+    margin: 5px;
+
+    background-color: #cecece;
+    color: black;
+
+    -moz-transition: all .25s;
+    -o-transition: all .25s;
+    -webkit-transition: all .25s;
+    transition: all .25s;
+
+    display: inline-block;
+    vertical-align: top;
+
+    flex-grow: 2;
+}
+
+.portfoliobox-noimg-text2 .text {
+    text-align: center;
+    padding: 10px;
+}
+
+.portfoliobox-noimg-text2 .top {
+    height: 45%;
+}
+
+.portfoliobox-noimg-text2 .bottom {
+    height: 45%;
+}
+
+.portfoliobox-noimg-text2 hr {
+    border-top: 1px #2c2c2c;
+    border-style: solid;
+    width: 85%;
+}
+
+.portfoliobox-noimg-text2:hover {
+    -webkit-box-shadow: 0px 0px 15px 5px rgba(42,255,0,0.37); 
+    box-shadow: 0px 0px 15px 5px rgba(42,255,0,0.37);
+}
+
 /* Info Container */
 .info {
     background-color: #353535;
