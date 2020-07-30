@@ -71,7 +71,6 @@ div#taglarge {
     font-weight: 400;
 
     /* Sticky Element */
-    position: fixed; width: 100%; /* Fix for old browsers */  
 
     position: -webkit-sticky; /* Safari */
     position: sticky;
